@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Quiz Hero</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        common: ["Rubik", "sans-serif"],
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<body>
+    <!-- Header/Navbar section start -->
+    <header class="h-16 flex items-center shadow-sm">
+        <nav class="flex justify-between items-center w-9/12 mx-auto">
+            <div class="text-zinc-800 font-bold uppercase">
+                <h1 class="text-lg">Quiz <span class="text-green-700">Blog</span></h1>
+                <p class="text-[10px] font-normal capitalize -mt-1">
+                    Get ready to Quiz and be amazed!
+                </p>
+            </div>
+            <a href="/index.html">
+                <button class="bg-green-600 font-light text-sm px-5 py-1 rounded text-white">
+                    Exam
+                </button>
+            </a>
+        </nav>
+    </header>
+    <!-- Header/Navbar section end -->
+
+    <main>
+        <section class="lg:w-9/12 md:w-[90%] w-[95%] mx-auto space-y-5 p-10">
+            <article class="space-y-3 border-b-2 pb-5">
+                <h1 class="text-xl font-bold">
+                    <span class="text-orange-600">Q1:</span> What is JavaScript?
+                </h1>
+                <p class="text-justify">
+                    <span class="text-green-600">Answer:</span> JavaScript is a versatile programming language
+                    primarily
+                    used to create and control dynamic website content. It allows for the implementation of complex
+                    features on web pages, such as interactive forms, animations, and more.
+                </p>
+            </article>
+
+            <article class="space-y-3 border-b-2 pb-5">
+                <h1 class="text-xl font-bold">
+                    <span class="text-orange-600">Q2:</span> How do you include JavaScript in an HTML file?
+                </h1>
+                <p class="text-justify">
+                    <span class="text-green-600">Answer:</span> JavaScript can be included in an HTML file using the
+                    <code>&lt;script&gt;</code> tag. It can be embedded directly within the HTML file or linked as
+                    an external file. For example:
+                <pre><code>&lt;script src="script.js"&gt;&lt;/script&gt;</code></pre>
+                </p>
+            </article>
+
+            <article class="space-y-3 border-b-2 pb-5">
+                <h1 class="text-xl font-bold">
+                    <span class="text-orange-600">Q3:</span> What is the DOM in JavaScript?
+                </h1>
+                <p class="text-justify">
+                    <span class="text-green-600">Answer:</span> The Document Object Model (DOM) is a programming
+                    interface for web documents. It represents the page so that programs can change the document
+                    structure, style, and content. JavaScript can interact with the DOM to dynamically update the
+                    content and structure of a web page.
+                </p>
+            </article>
+
+            <article class="space-y-3 border-b-2 pb-5">
+                <h1 class="text-xl font-bold">
+                    <span class="text-orange-600">Q4:</span> What is an event in JavaScript?
+                </h1>
+                <p class="text-justify">
+                    <span class="text-green-600">Answer:</span> An event in JavaScript refers to actions or
+                    occurrences that happen in the system being programmed. Examples of events include clicking a
+                    button, submitting a form, or loading a webpage. JavaScript can react to these events using
+                    event listeners.
+                </p>
+            </article>
+
+            <article class="space-y-3 border-b-2 pb-5">
+                <h1 class="text-xl font-bold">
+                    <span class="text-orange-600">Q5:</span> How do you declare a variable in JavaScript?
+                </h1>
+                <p class="text-justify">
+                    <span class="text-green-600">Answer:</span> Variables in JavaScript can be declared using the
+                    <code>var</code>, <code>let</code>, or <code>const</code> keywords. For example:
+                <pre><code>var name = "John";<br>let age = 30;<br>const isStudent = true;</code></pre>
+                <p><code>var</code> is function-scoped, while <code>let</code> and <code>const</code> are
+                    block-scoped. <code>const</code> is used for variables that should not be reassigned.</p>
+                </p>
+            </article>
+
+            <div class="flex justify-between">
+                <button class="px-3 py-1 bg-orange-500 hover:bg-gray-200 rounded-md">Prev</button>
+                <button class="px-3 py-1 bg-green-500 hover:bg-gray-200 rounded-md">Next</button>
+            </div>
+            <h1>hi ph</h1>
+        </section>
+    </main>
+</body>
+
+</html>
